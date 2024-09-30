@@ -15,8 +15,7 @@ export default function Home() {
     const responseai = await axios.post('/api/responseai',{prompt});
 
     SetAi(responseai.data.geminiAiResponse);
-    console.log(responseai.data.geminiAiResponse)
-
+    console.log(responseai.data.geminiAiResponse);
   }
 
   return (
