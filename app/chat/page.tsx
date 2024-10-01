@@ -49,7 +49,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) =>{
     
     <FormInput
     handleSubmit={handleSubmit}
-    nameRef={nameRef}    
+    nameRef={nameRef}  
     />
     
   </div>   
